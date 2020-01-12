@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Inventory</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.css'><link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="inventory-management-system-test/dist/style.css">
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div>
+  <div>
+<!-- Side navigation -->
+<div class="sidenav">
+  <a href="#">Inventory</a>
+  <!-- <a href="#">Transactions</a> -->
+  <!-- <a href="#">Settings</a> -->
+</div>
+
+<!-- Page content -->
+<div class="main">
+  <div class="header">
+    <h1 class="pageTitle">Inventory</h1>
+    <a href="/add"><button type="button " class="btn btn-secondary btn-lg addNewProduct">Add Product</button></a>
+  </div>
+  <table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Product</th>
+      <th scope="col">Type</th>
+      <th scope="col">Quantity</th>
+      <th scope="col"></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Product Name</td>
+      <td>Product Type</td>
+      <td>Product Quantity</td>
+      <td>
+        <!--start of dropdown menu-->
+        <div class="dropdown">
+    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="actionMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Action
+    </a>
+    <div class="dropdown-menu" aria-labelledby="actionMenuLink">
+      <a class="dropdown-item" href="#">Details</a>
+      <a class="dropdown-item" href="#">Add</a>
+      <a class="dropdown-item" href="#">Remove</a>
+    </div>
+  </div>
+        <!--end of dropdown menu-->
+      </td>
+    </tr>
+  </tbody>
+</table>
+  
+  
+    </div>
+    
+
+  
+</div>
+<!-- partial -->
+  <!-- <script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.js'></script> -->
+<script src='https://code.jquery.com/jquery-3.2.1.slim.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js'></script><script  src="inventory-management-system-test/dist/script.js"></script>
+
+</body>
+</html>
